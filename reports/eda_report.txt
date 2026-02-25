@@ -1,0 +1,146 @@
+
+======================================================================
+📋 PHẦN 1: TỔNG QUAN DỮ LIỆU
+======================================================================
+
+📊 Kích thước: 1,200 rows × 137 columns
+
+🏢 Công ty (6):
+   • FPT: 216 records
+   • GAS: 208 records
+   • HPG: 208 records
+   • VCB: 208 records
+   • VHM: 152 records
+   • VNM: 208 records
+
+📋 Loại báo cáo (4):
+   • Balance Sheet: 300 records
+   • Cash Flow: 300 records
+   • Financial Ratios: 300 records
+   • Income Statement: 300 records
+
+📅 Kỳ báo cáo (55):
+   • Từ: 0-Q0
+   • Đến: 2025-Q4
+
+✅ Phần 1 hoàn thành!
+
+
+======================================================================
+📋 PHẦN 2: PHÂN TÍCH DOANH THU
+======================================================================
+
+💰 Cột doanh thu: Revenue (Bn. VND)
+
+📊 Doanh thu trung bình theo công ty (Tỷ VNĐ):
+   • HPG: 20,751,616,971,474.37 (TB), 1,079,084,082,516,667.00 (Tổng), 52 kỳ
+   • GAS: 20,227,704,047,388.27 (TB), 1,051,840,610,464,190.00 (Tổng), 52 kỳ
+   • VHM: 18,068,257,032,840.74 (TB), 686,593,767,247,948.00 (Tổng), 38 kỳ
+   • VCB: 15,959,401,903,846.15 (TB), 829,888,899,000,000.00 (Tổng), 52 kỳ
+   • VNM: 13,120,412,148,132.62 (TB), 682,261,431,702,896.00 (Tổng), 52 kỳ
+   • FPT: 10,598,984,473,325.48 (TB), 572,345,161,559,576.00 (Tổng), 54 kỳ
+
+📊 Đã lưu biểu đồ: ../reports/figures\01_revenue_by_company.png
+
+✅ Phần 2 hoàn thành!
+
+
+======================================================================
+📋 PHẦN 3: PHÂN TÍCH LỢI NHUẬN
+======================================================================
+
+💵 Cột lợi nhuận: Attribute to parent company (Bn. VND)
+
+📊 Lợi nhuận trung bình theo công ty (Tỷ VNĐ):
+   • VHM: 6,279,957,151,521.58 (TB), 238,638,371,757,820.00 (Tổng)
+   • VCB: 4,532,588,615,384.62 (TB), 235,694,608,000,000.00 (Tổng)
+   • GAS: 2,699,395,214,314.42 (TB), 140,368,551,144,350.00 (Tổng)
+   • HPG: 2,499,615,921,656.50 (TB), 129,980,027,926,138.00 (Tổng)
+   • VNM: 2,281,818,541,615.67 (TB), 118,654,564,164,015.00 (Tổng)
+   • FPT: 982,673,338,771.44 (TB), 53,064,360,293,658.00 (Tổng)
+
+📊 Đã lưu biểu đồ: ../reports/figures\02_profit_by_company.png
+
+✅ Phần 3 hoàn thành!
+
+
+======================================================================
+📋 PHẦN 4: PHÂN TÍCH CHỈ SỐ TÀI CHÍNH
+======================================================================
+
+📊 Chỉ số tài chính tìm thấy: 5
+   • Chỉ tiêu khả năng sinh lợi_ROE (%)
+   • Chỉ tiêu khả năng sinh lợi_ROA (%)
+   • Chỉ tiêu định giá_EPS (VND)
+   • Chỉ tiêu định giá_P/E
+   • Chỉ tiêu cơ cấu nguồn vốn_Debt/Equity
+
+📊 Chỉ tiêu khả năng sinh lợi_ROE (%) trung bình:
+   • VNM: 0.30
+   • VHM: 0.22
+   • GAS: 0.21
+   • HPG: 0.20
+   • FPT: 0.20
+   • VCB: 0.16
+📊 Đã lưu: ../reports/figures\03_ratio_1_Chỉ_tiêu_khả_năng_sinh_lợi_ROE_(%).png
+
+📊 Chỉ tiêu khả năng sinh lợi_ROA (%) trung bình:
+   • VNM: 0.21
+   • GAS: 0.15
+   • HPG: 0.10
+   • VHM: 0.09
+   • FPT: 0.09
+   • VCB: 0.01
+📊 Đã lưu: ../reports/figures\03_ratio_2_Chỉ_tiêu_khả_năng_sinh_lợi_ROA_(%).png
+
+📊 Chỉ tiêu định giá_EPS (VND) trung bình:
+   • VHM: 1627.96
+   • VNM: 1441.56
+   • GAS: 1358.29
+   • FPT: 1192.29
+   • HPG: 1031.49
+   • VCB: 994.51
+📊 Đã lưu: ../reports/figures\03_ratio_3_Chỉ_tiêu_định_giá_EPS_(VND).png
+
+✅ Phần 4 hoàn thành!
+
+
+======================================================================
+📋 PHẦN 5: PHÂN TÍCH XU HƯỚNG
+======================================================================
+
+📊 Xu hướng doanh thu theo kỳ:
+stock_code           FPT           GAS  ...           VHM           VNM
+period                                  ...                            
+2024-Q4     1.765107e+13  2.496085e+13  ...  3.241348e+13  1.548505e+13
+2025-Q1     1.606498e+13  2.567543e+13  ...  1.569792e+13  1.296540e+13
+2025-Q2     1.665834e+13  3.010397e+13  ...  1.897496e+13  1.674461e+13
+2025-Q3     1.722551e+13  3.571104e+13  ...  1.641997e+13  1.696808e+13
+2025-Q4     2.025887e+13  4.370610e+13  ...  1.030095e+14  1.704542e+13
+
+[5 rows x 6 columns]
+
+📊 Đã lưu biểu đồ: ../reports/figures\04_revenue_trend.png
+
+✅ Phần 5 hoàn thành!
+
+
+======================================================================
+📋 PHẦN 6: PHÂN TÍCH TƯƠNG QUAN
+======================================================================
+
+📊 Top 10 tương quan mạnh nhất:
+   • TOTAL ASSETS (Bn. VND) <-> TOTAL RESOURCES (Bn. VND): 1.000
+   • Attribute to parent company (B <-> Attributable to parent company: 1.000
+   • Net Inventories <-> Inventories, Net (Bn. VND): 1.000
+   • Sales <-> Net Sales: 1.000
+   • Attribute to parent company (B <-> Net Profit For the Year: 0.999
+   • Net Profit For the Year <-> Attributable to parent company: 0.999
+   • Profit before tax <-> Net Profit For the Year: 0.998
+   • Profit before tax <-> Attributable to parent company: 0.998
+   • Attribute to parent company (B <-> Profit before tax: 0.998
+   • TOTAL ASSETS (Bn. VND) <-> LIABILITIES (Bn. VND): 0.995
+
+📊 Đã lưu heatmap: ../reports/figures\05_correlation_heatmap.png
+
+✅ Phần 6 hoàn thành!
