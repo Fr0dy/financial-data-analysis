@@ -2,12 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
 env/
 venv/
 *.egg-info/
-*.egg
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -15,21 +13,13 @@ venv/
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
 # Streamlit
 .streamlit/secrets.toml
 
 # Logs
 *.log
-
-# Temporary files
-*.tmp
-*.bak
-~*
