@@ -11,7 +11,7 @@ Dự án phân tích dữ liệu tài chính và dự đoán doanh thu của 10 
 **👉 [TRY THE INTERACTIVE DASHBOARD HERE](https://fr0dy-financial-data-analysis.streamlit.app/)** 👈
 
 ### 🎯 Quick Access
-- 📊 **Live Dashboard:** [YOUR_STREAMLIT_URL](https://fr0dy-financial-data-analysis.streamlit.app/)
+- 📊 **Live Dashboard:** [CLICK HERE](https://fr0dy-financial-data-analysis.streamlit.app/)
 - 📂 **GitHub Repo:** [https://github.com/Fr0dy/financial-data-analysis](https://github.com/Fr0dy/financial-data-analysis)
 - 📖 **Documentation:** See below
 
