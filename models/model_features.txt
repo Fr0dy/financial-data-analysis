@@ -1,0 +1,19 @@
+Attribute to parent company (Trillion VND)
+TOTAL ASSETS (Trillion VND)
+ROA
+Profit_Margin
+Revenue_Lag_1Q
+Revenue_Lag_4Q
+Revenue_QoQ_Change
+Revenue_YoY_Change
+Revenue_MA_4Q
+Revenue_Std_4Q
+Revenue_vs_MA
+Q1
+Q2
+Q3
+Q4
+Years_Since_Start
+ROA_capped
+Revenue_YoY_Change_capped
+Revenue_QoQ_Change_capped

@@ -1,0 +1,2 @@
+model_type,n_estimators,max_depth,train_records,test_records,features,train_mae,train_rmse,train_r2,test_mae,test_rmse,test_r2,date_trained
+RandomForestRegressor,100,10,412,104,19,0.34081317707061015,0.7857354552400767,0.991567595493994,4.121772938264241,14.452734821703608,0.4480490975781354,2026-02-27 12:24:22
