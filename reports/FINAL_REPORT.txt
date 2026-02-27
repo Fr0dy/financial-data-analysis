@@ -1,0 +1,85 @@
+
+============================================================
+FINANCIAL DATA ANALYSIS - FINAL REPORT
+============================================================
+
+1. DATA OVERVIEW
+   • Tickers: 10 (VHM, VIC, VNM, HPG, TCB, VCB, MBB, GAS, MSN, FPT)
+   • Time Period: 2007-2025 (18 years)
+   • Total Records: 516
+   • Data Sources: VNStock API (VCI)
+
+2. DATA QUALITY
+   • Income Statement: 516 records, 50 columns
+   • Balance Sheet: 516 records, 77 columns
+   • Cash Flow: 516 records, 46 columns
+   • Missing Values: Handled via median imputation
+
+3. KEY INSIGHTS
+   
+   Revenue Leaders (Avg Trillion VND):
+   • VIC (Vingroup):     28.37
+   • HPG (Hoa Phat):     20.75
+   • GAS (PV Gas):       20.23
+   • VHM (Vinhomes):     18.07
+   • VCB (Vietcombank):  15.96
+   
+   Growth Champions (Avg YoY %):
+   • VHM: 130.3% (High volatility: -84% to +1043%)
+   • VIC: 108.5% (High volatility: -64% to +3225%)
+   • MSN:  23.7% (Stable growth)
+   • HPG:  21.5% (Stable growth)
+   
+   Most Stable:
+   • VNM: 5.7% YoY (FMCG sector)
+   • FPT: 8.1% YoY (Tech sector)
+
+4. MODEL PERFORMANCE
+   
+   Algorithm: Random Forest Regressor
+   Features: 19 (engineered)
+   
+   Overall Test Performance:
+   • MAE:  4.12 Trillion VND
+   • RMSE: 14.45 Trillion VND
+   • R²:   0.4480
+   
+   Best Predictions (R² > 0.95):
+   • VNM: 0.98 (Vinamilk)
+   • FPT: 0.98 (FPT Corp)
+   • MBB: 0.97 (MB Bank)
+   • TCB: 0.96 (Techcombank)
+   
+   Challenging Predictions (R² < 0.5):
+   • VHM: 0.40 (Real estate volatility)
+   • VIC: -0.17 (Diversified conglomerate)
+   • VCB: -0.59 (Banking sector complexity)
+
+5. KEY FEATURES (Importance)
+   • Revenue_MA_4Q: 88.5% (Moving Average)
+   • Revenue_vs_MA: 5.7% (Trend indicator)
+   • Revenue_QoQ_Change: 1.0%
+   • Revenue_Lag_1Q: 1.0%
+
+6. RECOMMENDATIONS
+   
+   For Investors:
+   ✓ VNM, FPT: Predictable, stable growth
+   ✓ MSN, HPG: Good growth with moderate risk
+   ⚠ VHM, VIC: High volatility, needs macro analysis
+   
+   For Model Improvement:
+   • Add external features: GDP, interest rates, sector indices
+   • Separate models for different sectors
+   • Try LSTM for complex time series (VIC, VHM)
+   • Incorporate sentiment analysis from news
+
+7. FILES GENERATED
+   • Data: 6 CSV files (raw + processed)
+   • Figures: 11 visualizations
+   • Models: 1 trained model (Random Forest)
+   • Reports: This summary
+
+============================================================
+Generated: 2026-02-27 12:24:39
+============================================================
